@@ -1,9 +1,124 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    "films": [
+        {
+            "id": 1,
+            "title": "Inception",
+            "genre": "Sci-Fi",
+            "releaseYear": 2010,
+            "poster": "https://m.media-amazon.com/images/M/MV5BZjhkNjM0ZTMtNGM5MC00ZTQ3LTk3YmYtZTkzYzdiNWE0ZTA2XkEyXkFqcGc@._V1_.jpg",
+            "desc": "A mind-bending thriller about a thief who steals secrets through the use of dream-sharing technology.",
+            "cost": [
+                {
+                    "id": 1,
+                    "fullname": "Dom Cobb",
+                    "age": 40,
+                    "country": "USA"
+                },
+                {
+                    "id": 2,
+                    "fullname": "Robert Fischer",
+                    "age": 30,
+                    "country": "UK"
+                },
+                {
+                    "id": 3,
+                    "fullname": "Mal Cobb",
+                    "age": 35,
+                    "country": "USA"
+                },
+                {
+                    "id": 4,
+                    "fullname": "Arthur",
+                    "age": 36,
+                    "country": "USA"
+                },
+                {
+                    "id": 5,
+                    "fullname": "Eames",
+                    "age": 38,
+                    "country": "UK"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "The Dark Knight",
+            "genre": "Action",
+            "releaseYear": 2008,
+            "poster": "https://m.media-amazon.com/images/S/pv-target-images/8753733ac616155963cc440c3cf5367f45d7685b672c5b9c35bc7f182aec17c4.jpg",
+            "desc": "Batman faces his toughest adversary, the Joker, who aims to plunge Gotham City into anarchy.",
+            "cost": [
+                {
+                    "id": 1,
+                    "fullname": "Bruce Wayne",
+                    "age": 35,
+                    "country": "USA"
+                },
+                {
+                    "id": 2,
+                    "fullname": "Joker",
+                    "age": 40,
+                    "country": "Germany"
+                },
+                {
+                    "id": 3,
+                    "fullname": "Rachel Dawes",
+                    "age": 33,
+                    "country": "USA"
+                },
+                {
+                    "id": 4,
+                    "fullname": "Harvey Dent",
+                    "age": 37,
+                    "country": "USA"
+                },
+                {
+                    "id": 5,
+                    "fullname": "Alfred Pennyworth",
+                    "age": 55,
+                    "country": "UK"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "The Matrix",
+            "genre": "Action",
+            "releaseYear": 1999,
+            "poster": "https://m.media-amazon.com/images/I/613ypTLZHsL._AC_UF1000,1000_QL80_.jpg",
+            "desc": "A hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+            "cost": [
+                {
+                    "id": 1,
+                    "fullname": "Neo",
+                    "age": 30,
+                    "country": "USA"
+                },
+                {
+                    "id": 2,
+                    "fullname": "Trinity",
+                    "age": 32,
+                    "country": "Canada"
+                },
+                {
+                    "id": 3,
+                    "fullname": "Morpheus",
+                    "age": 45,
+                    "country": "USA"
+                },
+                {
+                    "id": 4,
+                    "fullname": "Agent Smith",
+                    "age": 40,
+                    "country": "Australia"
+                },
+                {
+                    "id": 5,
+                    "fullname": "Cypher",
+                    "age": 38,
+                    "country": "USA"
+                }
+            ]
+        }
+    ]
 }
